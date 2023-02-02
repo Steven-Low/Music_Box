@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_dialog_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter sleep time:"/>
+
+    <EditText
+        android:id="@+id/input_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="(minutes)"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+</LinearLayout>
